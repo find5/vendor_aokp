@@ -8,7 +8,7 @@ $ repo sync
 Once repo sync finishes, after copying the proprietary files from the current running phone ROM run the following commands.
 
 . build/envsetup.sh
-brunch ace
+brunch aokp_ace
 
 Happy ACE HACKING...
 
