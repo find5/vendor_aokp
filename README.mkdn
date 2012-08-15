@@ -1,43 +1,17 @@
-Android Open Kang Project
-=========================
+This repository has been modified to only include specifics for HTC Desire HD (DHD) / ACE. I have removed additional unneeded devices. The manifest points to randomblame's repositories for device_htc_ace and device_htc_msm7x30-common. I am using randomblame's for the time being since it is kept in sync with AOKP. The proprietary_vendor_htc is from TheMuppets repo and android_device_htc_common is from CyanogenMod. This manifest changes will hopefully make it easier to do less code dump on the device (i.e. not spend time syncing unneeded source) and also make ROM Cooking for DHD straight forward.
 
+Use the following commands to get started.
 
+$ repo init -u https://github.com/wolverine2k/platform_manifest -b jb
+$ repo sync
 
+Once repo sync finishes, after copying the proprietary files from the current running phone ROM run the following commands.
 
+. build/envsetup.sh
+brunch ace
 
-Getting Started
----------------
+Happy ACE HACKING...
 
-Please see the [Android source page](http://source.android.com/source/index.html) for building instructions.
-
-To initialize your local repository using my trees, use the following command:
-
-    repo init -u https://github.com/AOKP/platform_manifest.git -b jb
-
-Then to sync up:
-
-    repo sync
-
-
-
-Building
---------
-
-After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
-
-Once you've read that, you can build with
-
-    mka
-
-This will compile everything and use the correct "-j#" flag.
-
-You can also build a flashable zip with
-
-    mka bacon
-    
-    
 Special Thanks
 --------------
-Huge shout out to [@peteralfonzo](http://twitter.com/peteralfonso) for his wonderfully clean vendor tree to use as a base. This makes this infinitely more oragnized and easier to work with. Thank him!
-
-
+All credits goto AOKP, CyanogenMod, Android, XDA, RootzWiki & all the open source community.
