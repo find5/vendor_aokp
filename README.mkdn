@@ -2,13 +2,13 @@ This repository has been modified to only include specifics for HTC Desire HD (D
 
 Use the following commands to get started.
 
-$ repo init -u https://github.com/wolverine2k/platform_manifest -b jb
-$ repo sync
+	$ repo init -u https://github.com/wolverine2k/platform_manifest -b jb
+	$ repo sync
 
 Once repo sync finishes, after copying the proprietary files from the current running phone ROM run the following commands.
 
-. build/envsetup.sh
-brunch aokp_ace
+	. build/envsetup.sh
+	brunch aokp_ace
 
 Happy ACE HACKING...
 
