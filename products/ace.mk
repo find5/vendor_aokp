@@ -16,7 +16,7 @@ Camera
 
 # Device naming
 PRODUCT_DEVICE := ace
-PRODUCT_NAME := full_aokp_ace
+PRODUCT_NAME := aokp_ace
 PRODUCT_BRAND := HTC
 PRODUCT_MODEL := Desire HD
 PRODUCT_MANUFACTURER := HTC
